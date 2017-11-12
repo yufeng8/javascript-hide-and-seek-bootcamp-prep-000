@@ -29,7 +29,7 @@ function deepestChild() {
   console.log('deepest!!!')
   const main = document.getElementById('app')
   var elem = main.querySelector('#grand-node')
-  while (id.children.length) {
+  while (elem.children.length) {
     elem = elem.children[0];
   }
   // const deepestChild = id.querySelector('div')
