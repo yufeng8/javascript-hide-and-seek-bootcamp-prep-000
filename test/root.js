@@ -21,7 +21,6 @@ beforeEach(function(done) {
       global[key] = window[key];
     });
 
-
     console.log('calling done')
     return done();
   });
