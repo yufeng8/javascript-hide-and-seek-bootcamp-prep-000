@@ -7,7 +7,7 @@ describe('index', () => {
   })
 
   describe('nestedTarget()', () => {
-    it('pulls a .target out of #nested', () => {
+    it('pulls a .target out of #nested', (done) => {
       console.log('aaa')
       nestedTargetX()
       console.log('bbb')
