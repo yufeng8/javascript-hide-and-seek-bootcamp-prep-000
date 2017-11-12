@@ -15,8 +15,6 @@ beforeEach(function(done) {
       return done(err);
     }
 
-    // window.virtualConsole.sendTo(console);
-
     jsdom.getVirtualConsole(window).sendTo(console);
 
     Object.keys(window).forEach(key => {
