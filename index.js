@@ -10,7 +10,7 @@ function nestedTarget() {
   const className = id.querySelector('.target')
   console.log('classname', className)
   //const className = div.getElementByClassName("target")*/
-  // return className
+  return className
 }
 
 function increaseRankBy(n) {
