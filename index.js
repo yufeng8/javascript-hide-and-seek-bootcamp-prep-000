@@ -25,5 +25,5 @@ function deepestChild() {
   const main = document.getElementById('app')
   const id = main.querySelector('#grand-node')
   const deepestChild = id.querySelectorAll('div')
-  console.log(deepestChild)
+  console.log('deepestChild': deepestChild)
 }
