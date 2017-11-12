@@ -32,6 +32,7 @@ function deepestChild() {
   while (elem.children.length) {
     elem = elem.children[0];
   }
+  return elem;
   // const deepestChild = id.querySelector('div')
-  console.log('deepestChild', elem.textContent)
+  // console.log('deepestChild', elem.textContent)
 }
