@@ -3,6 +3,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
+  console.log("foosd fksdjflsdkfj")
   console.log('!!!!!!')
   const main = document.getElementById('app')
   console.log('main', main);
