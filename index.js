@@ -4,8 +4,9 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
   const main = document.getElementById('app')
-  const div = main.children[3]
-  const className = div.getElementByClassName("target")
+  const id= main.querySelector('nested')
+  const className = id.querySelector('target')
+  //const className = div.getElementByClassName("target")
 }
 
 function increaseRankBy(n) {
