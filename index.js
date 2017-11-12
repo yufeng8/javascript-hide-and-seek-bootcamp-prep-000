@@ -2,7 +2,7 @@ function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
-function nestedTarget() {
+function nestedTargetX() {
   console.log("foosd fksdjflsdkfj")
   console.log('!!!!!!')
   const main = document.getElementById('app')
