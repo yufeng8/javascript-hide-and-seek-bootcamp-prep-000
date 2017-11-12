@@ -3,7 +3,7 @@ function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
-function nestedTargetX() {
+function nestedTarget() {
   const main = document.getElementById('app')
   console.log('main', main);
   const id= main.querySelector('#nested')
