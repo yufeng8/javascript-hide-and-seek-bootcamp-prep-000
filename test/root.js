@@ -18,6 +18,9 @@ beforeEach(function(done) {
     Object.keys(window).forEach(key => {
       global[key] = window[key];
     });
+
+    window.console.sendTo(console);
+
     console.log('calling done')
     return done();
   });
