@@ -5,7 +5,7 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   const main = document.getElementById('app')
   const id= main.getElementById('nested')
-  const className = id.querySelector('target')
+  const className = id.querySelector('.target')
   //const className = div.getElementByClassName("target")
 }
 
