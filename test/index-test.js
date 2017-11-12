@@ -11,6 +11,7 @@ describe('index', () => {
       console.log('aaa')
       nestedTargetX()
       console.log('bbb')
+      done()
       expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
     })
   })
