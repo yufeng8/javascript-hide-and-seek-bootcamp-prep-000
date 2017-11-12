@@ -7,11 +7,8 @@ describe('index', () => {
   })
 
   describe('nestedTarget()', () => {
-    it('pulls a .target out of #nested', (done) => {
-      console.log('aaa')
-      nestedTargetX()
-      console.log('bbb')
-      done()
+    it('pulls a .target out of #nested', () => {
+      nestedTarget()
       expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
     })
   })
