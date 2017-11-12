@@ -1,4 +1,6 @@
 function getFirstSelector(selector) {
+  console.log('aaabbbb')
+  return 0;
   return document.querySelector(selector)
 }
 
