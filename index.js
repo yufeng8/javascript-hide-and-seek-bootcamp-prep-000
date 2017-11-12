@@ -5,6 +5,7 @@ function getFirstSelector(selector) {
 function nestedTargetX() {
   //console.log("foosd fksdjflsdkfj")
   console.log('!!!!!!')
+  console.log('!!!!!!')
 
 /*
   const main = document.getElementById('app')
