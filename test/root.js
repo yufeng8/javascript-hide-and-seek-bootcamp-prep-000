@@ -16,11 +16,9 @@ beforeEach(function(done) {
     }
 
     Object.keys(window).forEach(key => {
-      console.log(key)
-      if (key != 'console')
-        global[key] = window[key];
+      global[key] = window[key];
     });
-
+    console.log('calling done')
     return done();
   });
 });
