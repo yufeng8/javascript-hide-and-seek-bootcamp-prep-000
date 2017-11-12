@@ -21,7 +21,9 @@ describe('index', () => {
 
   describe('increaseRankBy(n)', () => {
     it('increases ranks in .ranked-list by n', () => {
+      console.log('!!! call increase')
       increaseRankBy(3)
+      console.log('!!! increase called')
 
       const rankedLists = document.querySelectorAll('.ranked-list')
       const firstList = rankedLists[0]
