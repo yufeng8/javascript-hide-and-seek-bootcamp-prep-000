@@ -14,7 +14,7 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-
+  const rankedLists = document.querySelectorAll('ul.ranked-list')
 }
 
 function deepestChild() {
