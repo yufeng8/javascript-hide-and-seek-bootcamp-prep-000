@@ -3,9 +3,13 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
+  console.log('!!!!!!')
   const main = document.getElementById('app')
+  console.log('main', main);
   const id= main.querySelector('#nested')
+  console.log('id', id)
   const className = id.querySelector('.target')
+  console.log('classname', className)
   //const className = div.getElementByClassName("target")
 }
 
