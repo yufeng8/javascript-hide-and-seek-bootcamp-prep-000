@@ -20,7 +20,7 @@ function increaseRankBy(n) {
   for (var i = 0; i < rankedLists.length; i++) {
     theNumber = rankedLists[i].textContent
     rankedLists[i].innerHTML = (theNumber + n).toString()
-    console.log(rankedLists[i].innerHTML)*/
+    console.log(rankedLists[i].innerHTML)
   }
 }
 
