@@ -33,5 +33,5 @@ function deepestChild() {
     id = id.children[0];
   }
   // const deepestChild = id.querySelector('div')
-  console.log('deepestChild', deepestChild)
+  console.log('deepestChild', id)
 }
